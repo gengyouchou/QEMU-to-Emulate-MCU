@@ -1,0 +1,11 @@
+21:47:12 **** Incremental Build of configuration Debug for project test_f407 ****
+make all 
+Invoking: GNU Arm Cross Print Size
+arm-none-eabi-size --format=berkeley "test_f407.elf"
+   text	   data	    bss	    dec	    hex	filename
+   9350	    168	    424	   9942	   26d6	test_f407.elf
+Finished building: test_f407.siz
+ 
+
+21:47:12 Build Finished. 0 errors, 0 warnings. (took 121ms)
+

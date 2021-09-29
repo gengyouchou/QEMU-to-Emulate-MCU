@@ -1,0 +1,29 @@
+!SESSION 2021-09-29 19:40:56.531 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-29 19:51:27.967
+!MESSAGE Indexed 'test_f407' (28 sources, 191 headers) in 2.04 sec: 10,321 declarations; 21,150 references; 0 unresolved inclusions; 2 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2021-09-29 20:03:46.158
+!MESSAGE /home/dpnums/.local/xPacks/@xpack-dev-tools/qemu-arm/2.8.0-12.1/.content/bin/qemu-system-gnuarmeclipse --verbose --board STM32F4-Discovery --mcu STM32F407VG --gdb tcp::1234 -d unimp,guest_errors --semihosting-config enable=on,target=native --semihosting-cmdline test_f407
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2021-09-29 20:03:46.352
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
+!SESSION 2021-09-29 21:37:14.487 -----------------------------------------------
+eclipse.buildId=4.21.0.I20210906-0500
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_TW
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2021-09-29 21:47:12.713
+!MESSAGE /home/dpnums/.local/xPacks/@xpack-dev-tools/qemu-arm/2.8.0-12.1/.content/bin/qemu-system-gnuarmeclipse --verbose --board STM32F4-Discovery --mcu STM32F407VG --gdb tcp::1234 -d unimp,guest_errors --semihosting-config enable=on,target=native --semihosting-cmdline test_f407
+
+!ENTRY org.eclipse.embedcdt.debug.core 4 1 2021-09-29 21:47:12.912
+!MESSAGE arm-none-eabi-gdb --interpreter=mi2 --nx
